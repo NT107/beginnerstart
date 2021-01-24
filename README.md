@@ -1,15 +1,14 @@
 # beginnerstart
 
 public class Main {
-	public static void main(String[] args) {
-		System.out.println("x = " + x);
+   public static void main(String[] args) {
+    int x = 11;
+    int y = 12;
+    System.out.println("x = " + x);
     System.out.println("y = " + y);
+    System.out.println(x++); //11
+    System.out.println(x); //12
+    System.out.println(++x); //13
+    
 	}
-  
-public class Add {
-  public static number (int x , int y){
-   int x = 11;
-   int y = 12;
-   return;
-   }
 }
